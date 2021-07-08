@@ -275,28 +275,6 @@ body, p, h1, h2, h3, h4, h5, h6, input, select, textarea {
     margin-top:50px;
 }
 
-.slider {
-    position: relative;
-    width: 100%;
-    top: calc(50% - 97.25px);
-    overflow: hidden;
-}
-.slider .slider-row {
-    width: 2956px;
-    height: 194.5px;
-    background-image: url(/Images/cocktailreel.png);
-    background-size: 2956px 194.5px;
-    animation: slide 50s linear infinite;
-}
-@keyframes slide {
-    from {
-        background-position-x: 0;
-   }
-    to {
-        background-position-x: -2956px;
-   }
-}
-
 video {
     object-fit: cover;
     width: 100vw;
@@ -304,4 +282,4 @@ video {
     position: fixed;
     top: 0;
     left: 0;
-  }
+}
